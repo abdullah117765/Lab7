@@ -1,9 +1,4 @@
 
-
-
-
-
-
 // Using Node.js `require()`
 const mongoose = require('mongoose');
 
@@ -58,7 +53,6 @@ Fruit.insertMany([orange,melon],function(err){
 
 */
 
-
 // now we will learn how to  get from database
 
 
@@ -101,3 +95,8 @@ Fruit.deleteOne({name:"Apple" },function(err){
     console.log("Successfully deleted from the document.");
     }
 });
+
+
+
+
+
